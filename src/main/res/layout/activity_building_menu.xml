@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".BuildingMenu">
+
+    <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+    >
+        <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent"
+                tools:layout_editor_absoluteY="153dp"
+                app:layout_constraintStart_toStartOf="parent" android:minHeight="1000dp">
+
+            <TextView
+                    android:text="@string/alienBorehole_upkeep"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/textView70"
+                    android:textAlignment="center" android:textSize="18sp"
+                    app:layout_constraintStart_toEndOf="@+id/textView69" android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/textView68"/>
+            <TextView
+                    android:text="@string/alienBorehole_cost"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/textView69"
+                    android:textAlignment="center" android:textSize="18sp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textView67"
+                    app:layout_constraintStart_toEndOf="@+id/buildAlienBorehole" android:layout_marginStart="16dp"/>
+            <TextView
+                    android:text="@string/resourcesReplicator_upkeep"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/textView68"
+                    android:textAlignment="center" android:textSize="18sp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textView66"
+                    app:layout_constraintStart_toEndOf="@+id/textView67" android:layout_marginStart="16dp"/>
+            <TextView
+                    android:text="@string/resourcesReplicator_cost"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/textView67"
+                    android:textAlignment="center" android:textSize="18sp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textView65"
+                    app:layout_constraintStart_toEndOf="@+id/buildAlienResourcesReplicator"
+                    android:layout_marginStart="16dp"/>
+            <TextView
+                    android:text="@string/school_upkeep"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/textView66"
+                    android:textAlignment="center" android:textSize="18sp"
+                    app:layout_constraintStart_toEndOf="@+id/textView65"
+                    android:layout_marginStart="16dp" android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textView64"/>
+            <TextView
+                    android:text="@string/school_cost"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/textView65"
+                    android:textAlignment="center" android:textSize="18sp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textView63"
+                    app:layout_constraintStart_toEndOf="@+id/buildSchool" android:layout_marginStart="16dp"/>
+            <TextView
+                    android:text="@string/wonderCrane_upkeep"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/textView64"
+                    android:textAlignment="center" android:textSize="18sp"
+                    app:layout_constraintStart_toEndOf="@+id/textView63"
+                    android:layout_marginStart="16dp" android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textView62"/>
+            <TextView
+                    android:text="@string/wonderCrane_cost"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/textView63"
+                    android:textAlignment="center" android:textSize="18sp"
+                    app:layout_constraintStart_toEndOf="@+id/buildWonderCrane"
+                    android:layout_marginStart="16dp" android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textView61"/>
+            <TextView
+                    android:text="@string/bank_upkeep"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/textView62"
+                    android:textAlignment="center" android:textSize="18sp"
+                    app:layout_constraintStart_toEndOf="@+id/textView61"
+                    android:layout_marginStart="16dp" android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textView60"/>
+            <TextView
+                    android:text="@string/bank_cost"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/textView61"
+                    android:textAlignment="center" android:textSize="18sp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textView59"
+                    app:layout_constraintStart_toEndOf="@+id/buildBank" android:layout_marginStart="16dp"/>
+            <TextView
+                    android:text="@string/deepMine_upkeep"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/textView60"
+                    android:textAlignment="center" android:textSize="18sp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textView57"
+                    app:layout_constraintStart_toEndOf="@+id/textView59" android:layout_marginStart="16dp"/>
+            <TextView
+                    android:text="@string/deepMine_cost"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/textView59"
+                    android:textAlignment="center" android:textSize="18sp"
+                    android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/textView58"
+                    app:layout_constraintStart_toEndOf="@+id/buildDeepMine" android:layout_marginStart="16dp"/>
+            <TextView
+                    android:text="@string/buildings_to_build"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp" app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="16dp"
+                    android:layout_marginStart="16dp" android:id="@+id/textView54" android:textSize="18sp"
+                    android:textAlignment="textStart"/>
+            <TextView
+                    android:text="@string/buildings_cost"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="16dp" android:id="@+id/textView55"
+                    app:layout_constraintStart_toEndOf="@+id/textView54" android:layout_marginStart="16dp"
+                    android:textSize="18sp" android:textAlignment="center"/>
+            <TextView
+                    android:text="@string/buildings_upkeep"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp" app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/textView56"
+                    app:layout_constraintStart_toEndOf="@+id/textView55" android:layout_marginStart="16dp"
+                    android:textSize="18sp" android:textAlignment="center"/>
+            <Button
+                    android:text="@string/buildings_build_Farmhouse"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+                    android:id="@+id/buildFarmhouse" android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textView54" android:textSize="14sp"
+                    android:textAlignment="textStart" android:onClick="buildFarmhouse"/>
+            <TextView
+                    android:text="@string/farmhouse_upkeep"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/textView57"
+                    android:textAlignment="center" android:textSize="18sp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textView56"
+                    app:layout_constraintStart_toEndOf="@+id/textView58" android:layout_marginStart="16dp"/>
+            <TextView
+                    android:text="@string/farmhouse_cost"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/textView58" android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textView55"
+                    app:layout_constraintStart_toEndOf="@+id/buildFarmhouse" android:layout_marginStart="16dp"
+                    android:textAlignment="center" android:textSize="18sp"/>
+            <Button
+                    android:text="@string/buildings_build_DeepMine"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+                    android:id="@+id/buildDeepMine" android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/buildFarmhouse" android:textAlignment="textStart"
+                    android:onClick="buildDeepMine"/>
+            <Button
+                    android:text="@string/buildings_build_Bank"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+                    android:id="@+id/buildBank" android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/buildDeepMine" android:textAlignment="textStart"
+                    android:onClick="buildBank"/>
+            <Button
+                    android:text="@string/building_build_wonderCrane"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/buildWonderCrane" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="16dp" android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/buildBank" android:textAlignment="textStart"
+                    android:onClick="buildWonderCrane"/>
+            <Button
+                    android:text="@string/building_build_School"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/buildSchool" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="16dp" android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/buildWonderCrane" android:onClick="buildSchool"
+                    android:textAlignment="textStart"/>
+            <Button
+                    android:text="@string/building_build_AlienResourcesReplicator"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+                    android:id="@+id/buildAlienResourcesReplicator" android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/buildSchool" android:textAlignment="textStart"
+                    android:textSize="8sp" android:onClick="buildAlienResourcesReplicator"/>
+            <Button
+                    android:text="@string/building_build_AlienBorehole"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+                    android:id="@+id/buildAlienBorehole" android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/buildAlienResourcesReplicator"/>
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
